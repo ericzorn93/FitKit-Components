@@ -13,15 +13,13 @@ npm install --save fitkit-components
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React from "react";
 
-import MyComponent from 'fitkit-components'
+import MyComponent from "fitkit-components";
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
