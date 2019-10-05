@@ -1,7 +1,7 @@
 {
   "name": "fitkit-components",
   "version": "0.0.1",
-  "description": "A component library with React and TypeScript for the fitness and lifestyle application, FitKit",
+  "description": "A component library with React and TypeScript for the fitness and lifestyle application, FitKit.",
   "author": "Eric Zorn <zornwebdev@gmail.com>",
   "license": "MIT",
   "repository": "ericzorn93/FitKit-Components",
