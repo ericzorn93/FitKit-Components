@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-
-export default class EntryComponent extends Component {
+class EntryComponent extends Component {
   render() {
-    return <div>Entry</div>;
+    return <div>Entry Component</div>;
   }
 }
+
+export default EntryComponent;
