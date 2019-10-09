@@ -2,7 +2,9 @@ import React from "react";
 
 import "./header.scss";
 
-interface Props {}
+interface Props {
+  title: string;
+}
 
 const Header: React.FC<Props> = () => {
   return (
