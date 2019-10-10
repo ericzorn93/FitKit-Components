@@ -1,7 +1,16 @@
 import React, { Component } from "react";
-class EntryComponent extends Component {
+
+import Header from "./header/Header";
+
+interface IProps {}
+class EntryComponent extends Component<IProps> {
   render() {
-    return <div>Entry Component</div>;
+    return (
+      <div>
+        <Header title="Test Title" />
+        <h1>Entry Component</h1>
+      </div>
+    );
   }
 }
 
